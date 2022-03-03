@@ -21,22 +21,29 @@ h1{
 }
 
 #contenedorFormulario{
+    width: 85%;
     margin-bottom: 20px;
+    margin: auto;
+}
+
+form{
+    display: flex;
 }
 
 input{
     height: 40px;
     padding: 10px;
-    width: 70%;
+    width: 90%;
     font-size: 20px;
     border: 1px solid black;
+    border-right: 0px;
     border-radius: 10px 0px 0px 10px;
 }
 
 #botonAgregar{
+    width: 10%;
     font-size: 23px;
     padding: 16px;
-    margin-left: -10px;
     border: 1px solid black;
     border-radius: 0px 10px 10px 0px;
     background-color: RGB(77,193,106);
@@ -73,7 +80,7 @@ ul p{
     background-color: rgb(190, 94, 94);
     font-size: 23px;
     padding: 16px;
-    border: 0px solid black;
+    border: 0px;
     border-left: 1px solid black;
     border-radius: 0px 10px 10px 0px;
     cursor: pointer;
